@@ -2,77 +2,77 @@ window.FG_PRODUCTS = [
   {
     slug: 'tuneles', name: 'Túneles',
     desc: 'Túneles inflables de acceso e ingreso, ideales para eventos deportivos y activaciones de marca.',
-    photos: ['tunel-1.jpg', 'tunel-2.png', 'tunel-3.jpg', 'tunel-4.jpg', 'tunel-5.jpg', 'tunel-6.jpg', 'tunel-7.jpg', 'tunel-8.jpg', 'tunel-9.jpg'],
+    photos: ['img/tunel-1.jpg', 'img/tunel-2.png', 'img/tunel-3.jpg', 'img/tunel-4.jpg', 'img/tunel-5.jpg', 'img/tunel-6.jpg', 'img/tunel-7.jpg', 'img/tunel-8.jpg', 'img/tunel-9.jpg'],
   },
   {
     slug: 'peras', name: 'Peras',
     desc: 'Peras publicitarias de gran altura para destacar tu marca desde lejos.',
-    photos: ['pera-1.jpg', 'pera-2.jpg', 'pera-3.png', 'pera-4.png', 'pera-5.png', 'pera-6.png', 'pera-7.png', 'pera-8.png', 'pera-9.png', 'pera-10.png'],
+    photos: ['img/pera-1.jpg', 'img/pera-2.jpg', 'img/pera-3.png', 'img/pera-4.png', 'img/pera-5.png', 'img/pera-6.png', 'img/pera-7.png', 'img/pera-8.png', 'img/pera-9.png', 'img/pera-10.png'],
   },
   {
     slug: 'meta', name: 'Meta',
     desc: 'Metas y arcos inflables para largadas, llegadas y puntos de control.',
-    photos: ['meta-1.jpg', 'meta-2.jpg', 'meta-3.jpg', 'meta-4.jpg', 'meta-5.jpg', 'meta-6.jpg', 'meta-7.jpg', 'meta-8.jpg', 'meta-9.jpg', 'meta-10.jpg'],
+    photos: ['img/meta-1.jpg', 'img/meta-2.jpg', 'img/meta-3.jpg', 'img/meta-4.jpg', 'img/meta-5.jpg', 'img/meta-6.jpg', 'img/meta-7.jpg', 'img/meta-8.jpg', 'img/meta-9.jpg', 'img/meta-10.jpg'],
   },
   {
     slug: 'globos-con-helio', name: 'Globos con helio',
     desc: 'Globos con helio flotantes para exteriores, visibles a gran distancia.',
-    photos: ['globo-1.jpg', 'globo-2.jpg', 'globo-3.jpg', 'globo-4.jpg', 'globo-5.jpg', 'globo-6.jpg', 'globo-7.jpg', 'globo-8.jpg', 'globo-9.jpg', 'globo-10.jpg'],
+    photos: ['img/globo-1.jpg', 'img/globo-2.jpg', 'img/globo-3.jpg', 'img/globo-4.jpg', 'img/globo-5.jpg', 'img/globo-6.jpg', 'img/globo-7.jpg', 'img/globo-8.jpg', 'img/globo-9.jpg', 'img/globo-10.jpg'],
   },
   {
     slug: 'cilindros', name: 'Cilindros',
     desc: 'Cilindros y tótems inflables versátiles para señalética y punto de venta.',
-    photos: ['cil-1.jpg', 'cil-2.jpg', 'cil-3.jpg', 'cil-4.jpg', 'cil-5.jpg', 'cil-6.jpg', 'cil-7.jpg', 'cil-8.jpg', 'cil-9.jpg', 'cil-10.jpg'],
+    photos: ['img/cil-1.jpg', 'img/cil-2.jpg', 'img/cil-3.jpg', 'img/cil-4.jpg', 'img/cil-5.jpg', 'img/cil-6.jpg', 'img/cil-7.jpg', 'img/cil-8.jpg', 'img/cil-9.jpg', 'img/cil-10.jpg'],
   },
   {
     slug: 'pelotas', name: 'Pelotas',
     desc: 'Pelotas gigantes personalizadas para activaciones y decoración de eventos.',
-    photos: ['pelota-1.png', 'pelota-2.jpg', 'pelota-3.jpg', 'pelota-4.jpg', 'pelota-5.jpg', 'pelota-6.jpg', 'pelota-7.jpg', 'pelota-8.jpg', 'pelota-9.jpg', 'pelota-10.jpg'],
+    photos: ['img/pelota-1.png', 'img/pelota-2.jpg', 'img/pelota-3.jpg', 'img/pelota-4.jpg', 'img/pelota-5.jpg', 'img/pelota-6.jpg', 'img/pelota-7.jpg', 'img/pelota-8.jpg', 'img/pelota-9.jpg', 'img/pelota-10.jpg'],
   },
   {
     slug: 'carpas-paris', name: 'Carpas París',
     desc: 'Carpas inflables modelo París, elegantes para eventos y atención de público.',
-    photos: ['paris-1.jpg', 'paris-2.png', 'paris-3.jpg', 'paris-4.jpg', 'paris-5.png', 'paris-6.jpg', 'paris-7.png', 'paris-8.png', 'paris-9.jpg', 'paris-10.png'],
+    photos: ['img/paris-1.jpg', 'img/paris-2.png', 'img/paris-3.jpg', 'img/paris-4.jpg', 'img/paris-5.png', 'img/paris-6.jpg', 'img/paris-7.png', 'img/paris-8.png', 'img/paris-9.jpg', 'img/paris-10.png'],
   },
   {
     slug: 'carpas-pulpos', name: 'Carpas Pulpos',
     desc: 'Carpas tipo pulpo de montaje rápido, perfectas para ferias y stands.',
-    photos: ['pulpo-1.jpg', 'pulpo-2.jpg', 'pulpo-3.jpg', 'pulpo-4.jpg', 'pulpo-5.jpg', 'pulpo-6.jpg', 'pulpo-7.jpg', 'pulpo-8.jpg', 'pulpo-9.jpg', 'pulpo-10.jpeg'],
+    photos: ['img/pulpo-1.jpg', 'img/pulpo-2.jpg', 'img/pulpo-3.jpg', 'img/pulpo-4.jpg', 'img/pulpo-5.jpg', 'img/pulpo-6.jpg', 'img/pulpo-7.jpg', 'img/pulpo-8.jpg', 'img/pulpo-9.jpg', 'img/pulpo-10.jpeg'],
   },
   {
     slug: 'galpones', name: 'Galpones',
     desc: 'Galpones inflables autónomos de gran superficie, hasta 80 m².',
-    photos: ['galpon-1.jpg', 'galpon-2.jpg', 'galpon-3.jpg', 'galpon-4.jpg', 'galpon-5.jpeg', 'galpon-6.jpg', 'galpon-7.jpg', 'galpon-8.jpg', 'galpon-9.png'],
+    photos: ['img/galpon-1.jpg', 'img/galpon-2.jpg', 'img/galpon-3.jpg', 'img/galpon-4.jpg', 'img/galpon-5.jpeg', 'img/galpon-6.jpg', 'img/galpon-7.jpg', 'img/galpon-8.jpg', 'img/galpon-9.png'],
   },
   {
     slug: 'formas', name: 'Formas',
     desc: 'Réplicas y formas especiales a medida: productos, corpóreos y logos.',
-    photos: ['forma-1.jpg', 'forma-2.jpeg', 'forma-3.jpeg', 'forma-4.jpg', 'forma-5.jpg', 'forma-6.jpg', 'forma-7.jpg', 'forma-8.jpg', 'forma-9.jpg', 'forma-10.jpeg'],
+    photos: ['img/forma-1.jpg', 'img/forma-2.jpeg', 'img/forma-3.jpeg', 'img/forma-4.jpg', 'img/forma-5.jpg', 'img/forma-6.jpg', 'img/forma-7.jpg', 'img/forma-8.jpg', 'img/forma-9.jpg', 'img/forma-10.jpeg'],
   },
   {
     slug: 'cubos-y-rectangulos', name: 'Cubos y Rectángulos',
     desc: 'Cubos y rectángulos inflables para exhibición y branding de marca.',
-    photos: ['cubo-1.jpg', 'cubo-2.jpg', 'cubo-3.jpg', 'cubo-4.jpg', 'cubo-5.jpg', 'cubo-6.jpg', 'cubo-7.jpg', 'cubo-8.jpg', 'cubo-9.jpg', 'cubo-10.jpg'],
+    photos: ['img/cubo-1.jpg', 'img/cubo-2.jpg', 'img/cubo-3.jpg', 'img/cubo-4.jpg', 'img/cubo-5.jpg', 'img/cubo-6.jpg', 'img/cubo-7.jpg', 'img/cubo-8.jpg', 'img/cubo-9.jpg', 'img/cubo-10.jpg'],
   },
   {
     slug: 'bailarines', name: 'Bailarines',
     desc: 'Bailarines de viento animados que captan la atención al instante.',
-    photos: ['bailarin-1.png', 'bailarin-2.png', 'bailarin-3.png', 'bailarin-4.png', 'bailarin-5.png', 'bailarin-6.png', 'bailarin-7.png', 'bailarin-8.png', 'bailarin-9.png', 'bailarin-10.png'],
+    photos: ['img/bailarin-1.png', 'img/bailarin-2.png', 'img/bailarin-3.png', 'img/bailarin-4.png', 'img/bailarin-5.png', 'img/bailarin-6.png', 'img/bailarin-7.png', 'img/bailarin-8.png', 'img/bailarin-9.png', 'img/bailarin-10.png'],
   },
   {
     slug: 'pantallas', name: 'Pantallas',
     desc: 'Pantallas inflables para proyección en eventos al aire libre.',
-    photos: ['pantalla-1.png', 'pantalla-2.jpg', 'pantalla-3.jpg', 'pantalla-4.jpg', 'pantalla-5.jpg'],
+    photos: ['img/pantalla-1.png', 'img/pantalla-2.jpg', 'img/pantalla-3.jpg', 'img/pantalla-4.jpg', 'img/pantalla-5.jpg'],
   },
   {
     slug: 'peras-2', name: 'Peras',
     desc: 'Peras publicitarias de gran altura para destacar tu marca desde lejos.',
-    photos: ['pera-1.jpg', 'pera-2.jpg', 'pera-3.png', 'pera-4.png', 'pera-5.png', 'pera-6.png', 'pera-7.png', 'pera-8.png', 'pera-9.png', 'pera-10.png'],
+    photos: ['img/pera-1.jpg', 'img/pera-2.jpg', 'img/pera-3.png', 'img/pera-4.png', 'img/pera-5.png', 'img/pera-6.png', 'img/pera-7.png', 'img/pera-8.png', 'img/pera-9.png', 'img/pera-10.png'],
   },
   {
     slug: 'meta-2', name: 'Meta',
     desc: 'Metas y arcos inflables para largadas, llegadas y puntos de control.',
-    photos: ['meta-1.jpg', 'meta-2.jpg', 'meta-3.jpg', 'meta-4.jpg', 'meta-5.jpg', 'meta-6.jpg', 'meta-7.jpg', 'meta-8.jpg', 'meta-9.jpg', 'meta-10.jpg'],
+    photos: ['img/meta-1.jpg', 'img/meta-2.jpg', 'img/meta-3.jpg', 'img/meta-4.jpg', 'img/meta-5.jpg', 'img/meta-6.jpg', 'img/meta-7.jpg', 'img/meta-8.jpg', 'img/meta-9.jpg', 'img/meta-10.jpg'],
   },
 ];
 
