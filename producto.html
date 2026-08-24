@@ -51,9 +51,9 @@
       <a href="index.html" style="display:inline-flex;align-items:center;text-decoration:none;margin-right:auto">
         <img src="img/logo.png" alt="Ficticios Gigantes" style="height:46px;width:auto;display:block">
       </a>
-      <a href="index.html#servicios" data-navlink="" style="text-decoration:none;font-family:var(--font-display);font-weight:500;font-size:16px;color:var(--ink)">Servicios</a>
-      <a href="index.html#productos" data-navlink="" style="text-decoration:none;font-family:var(--font-display);font-weight:500;font-size:16px;color:var(--ink)">Productos</a>
+      <a href="index.html#servicios" data-navlink="" style="text-decoration:none;font-family:var(--font-display);font-weight:500;font-size:16px;color:var(--ink)">Qué hacemos</a>
       <a href="index.html#nosotros" data-navlink="" style="text-decoration:none;font-family:var(--font-display);font-weight:500;font-size:16px;color:var(--ink)">Nosotros</a>
+      <a href="index.html#productos" data-navlink="" style="text-decoration:none;font-family:var(--font-display);font-weight:500;font-size:16px;color:var(--ink)">Productos</a>
       <a href="index.html#inicio" style="display:inline-flex;align-items:center;gap:9px;text-decoration:none;background:var(--ink);color:#fff;font-family:var(--font-display);font-weight:500;font-size:15px;padding:9px 10px 9px 20px;border-radius:999px" style-hover="background:var(--red)">
         Cotizar
         <span style="width:28px;height:28px;border-radius:50%;background:#fff;color:var(--ink);display:grid;place-items:center"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span>
@@ -98,7 +98,7 @@
       </div>
 
       <div>
-        <span style="display:inline-block;background:var(--ink);color:#fff;font-family:var(--font-display);font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;padding:7px 16px;border-radius:999px">Inflables a medida</span>
+        <span style="display:inline-block;background:var(--ink);color:#fff;font-family:var(--font-display);font-weight:600;font-size:12px;letter-spacing:.16em;text-transform:uppercase;padding:7px 16px;border-radius:999px">{{ kicker }}</span>
         <h1 style="font-family:var(--font-display);font-weight:600;font-size:clamp(32px,4vw,52px);line-height:1.02;letter-spacing:-.02em;margin:18px 0 0;color:var(--ink)">{{ name }}</h1>
         <p style="font-size:16.5px;line-height:1.6;color:var(--muted);margin:16px 0 0;max-width:46ch">{{ desc }}</p>
 
@@ -155,7 +155,7 @@
     <div data-foot-grid="" style="max-width:1220px;margin:0 auto;padding:clamp(34px,4.5vw,56px) clamp(16px,4vw,44px);display:grid;grid-template-columns:1fr 1fr;gap:clamp(26px,4vw,60px);align-items:start">
       <div>
         <img src="img/logo.png" alt="Ficticios Gigantes" style="height:40px;width:auto;display:block">
-        <p style="font-size:15px;line-height:1.6;color:var(--muted);margin:16px 0 0;max-width:40ch">Fabricantes de inflables personalizados con más de 15 años de experiencia. Diseño y fabricación propia.</p>
+        <p style="font-size:15px;line-height:1.6;color:var(--muted);margin:16px 0 0;max-width:40ch">Más de 20 años diseñando y fabricando inflables publicitarios a medida para empresas y marcas de todo Chile.</p>
       </div>
       <div>
         <h3 style="font-family:var(--font-display);font-weight:600;font-size:19px;margin:0 0 8px;color:var(--ink)">Datos de contacto</h3>
@@ -222,7 +222,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const p = this.current();
-    if (!p) return { name: '', desc: '', mainRef: this.mainRef, counter: '', thumbs: [], similar: [], features: [] };
+    if (!p) return { name: '', desc: '', kicker: 'Inflables a medida', mainRef: this.mainRef, counter: '', thumbs: [], similar: [], features: [] };
     const photos = p.photos || [];
     const idx = Math.min(this.state.idx, Math.max(photos.length - 1, 0));
     const go = (i) => this.setState({ idx: (i + photos.length) % photos.length });
@@ -251,7 +251,8 @@ class Component extends DCLogic {
         style: 'flex:0 0 auto;width:96px;height:96px;padding:0;border:none;cursor:pointer;background:#fff;border-radius:12px;overflow:hidden;outline:' + (i === idx ? '2.5px solid #e2211c' : '1px solid #dde5ee') + ';outline-offset:-1px;opacity:' + (i === idx ? '1' : '.72'),
       })),
       similar,
-      features: (window.FG_FEATURES || []),
+      features: (p.features && p.features.length ? p.features : (window.FG_FEATURES || [])),
+      kicker: p.kicker || 'Inflables a medida',
     };
   }
 }
