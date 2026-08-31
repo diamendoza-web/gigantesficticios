@@ -1,6 +1,6 @@
 window.FG_PRODUCTS = [
   {
-    slug: 'metas', cover: 'img/cover-meta.jpg', name: 'Metas',
+    slug: 'metas', thumb: 'img/crop-metas.jpg', cover: 'img/cover-meta.jpg', name: 'Metas',
     desc: 'Metas y arcos inflables para eventos, carreras y activaciones.',
     kicker: 'Inflables a medida',
     features: [
@@ -13,7 +13,7 @@ window.FG_PRODUCTS = [
     photos: ['img/meta-1.jpg', 'img/meta-2.jpg', 'img/meta-3.jpg', 'img/meta-4.jpg', 'img/meta-5.jpg', 'img/meta-6.jpg', 'img/meta-7.jpg', 'img/meta-8.jpg', 'img/meta-9.jpg', 'img/meta-10.jpg'],
   },
   {
-    slug: 'cilindros', cover: 'img/cover-cilindros.png', name: 'Cilindros',
+    slug: 'cilindros', thumb: 'img/crop-cilindros.jpg', cover: 'img/cover-cilindros.png', name: 'Cilindros',
     desc: 'Cilindros inflables para publicidad y puntos de venta.',
     kicker: 'Inflables a medida',
     features: [
@@ -26,7 +26,7 @@ window.FG_PRODUCTS = [
     photos: ['img/cil-1.jpg', 'img/cil-2.jpg', 'img/cil-3.jpg', 'img/cil-4.jpg', 'img/cil-5.jpg', 'img/cil-6.jpg', 'img/cil-7.jpg', 'img/cil-8.jpg', 'img/cil-9.jpg', 'img/cil-10.jpg'],
   },
   {
-    slug: 'peras', cover: 'img/cover-peras.png', name: 'Peras',
+    slug: 'peras', thumb: 'img/crop-peras.jpg', cover: 'img/cover-peras.png', name: 'Peras',
     desc: 'Peras publicitarias de gran altura para destacar tu marca desde lejos.',
     kicker: 'Inflables a medida',
     features: [
@@ -39,7 +39,7 @@ window.FG_PRODUCTS = [
     photos: ['img/pera-1.jpg', 'img/pera-2.jpg', 'img/pera-3.png', 'img/pera-4.png', 'img/pera-5.png', 'img/pera-6.png', 'img/pera-7.png', 'img/pera-8.png', 'img/pera-9.png', 'img/pera-10.png'],
   },
   {
-    slug: 'pelotas', cover: 'img/cover-pelotas.jpg', name: 'Pelotas',
+    slug: 'pelotas', thumb: 'img/crop-pelotas.jpg', cover: 'img/cover-pelotas.jpg', name: 'Pelotas',
     desc: 'Pelotas inflables para publicidad, eventos y activaciones.',
     kicker: 'Inflables a medida',
     features: [
@@ -52,7 +52,7 @@ window.FG_PRODUCTS = [
     photos: ['img/pelota-1.png', 'img/pelota-2.jpg', 'img/pelota-3.jpg', 'img/pelota-4.jpg', 'img/pelota-5.jpg', 'img/pelota-6.jpg', 'img/pelota-7.jpg', 'img/pelota-8.jpg', 'img/pelota-9.jpg', 'img/pelota-10.jpg'],
   },
   {
-    slug: 'formas', cover: 'img/cover-formas.png', name: 'Formas especiales',
+    slug: 'formas', thumb: 'img/crop-formas.jpg', cover: 'img/cover-formas.png', name: 'Formas especiales',
     desc: 'Figuras y formas especiales desarrolladas completamente a medida.',
     kicker: 'Inflables a medida',
     features: [
@@ -78,7 +78,7 @@ window.FG_PRODUCTS = [
     photos: ['img/cover-formas-productos.jpg'],
   },
   {
-    slug: 'galpones', cover: 'img/cover-galpones.png', name: 'Galpones',
+    slug: 'galpones', thumb: 'img/crop-galpones.jpg', cover: 'img/cover-galpones.png', name: 'Galpones',
     desc: 'Estructuras inflables de gran superficie para múltiples aplicaciones.',
     kicker: 'Inflables a medida',
     features: [
@@ -91,7 +91,7 @@ window.FG_PRODUCTS = [
     photos: ['img/galpon-1.jpg', 'img/galpon-2.jpg', 'img/galpon-3.jpg', 'img/galpon-4.jpg', 'img/galpon-5.jpeg', 'img/galpon-6.jpg', 'img/galpon-7.jpg', 'img/galpon-8.jpg', 'img/galpon-9.png'],
   },
   {
-    slug: 'tuneles', cover: 'img/cover-tuneles.png', name: 'Túneles',
+    slug: 'tuneles', thumb: 'img/crop-tuneles.jpg', cover: 'img/cover-tuneles.png', name: 'Túneles',
     desc: 'Túneles inflables para eventos, accesos y activaciones de marca.',
     kicker: 'Inflables a medida',
     features: [
@@ -104,7 +104,7 @@ window.FG_PRODUCTS = [
     photos: ['img/tunel-1.jpg', 'img/tunel-2.png', 'img/tunel-3.jpg', 'img/tunel-4.jpg', 'img/tunel-5.jpg', 'img/tunel-6.jpg', 'img/tunel-7.jpg', 'img/tunel-8.jpg', 'img/tunel-9.jpg'],
   },
   {
-    slug: 'carpas-paris', cover: 'img/cover-paris.jpg', name: 'Carpas París',
+    slug: 'carpas-paris', thumb: 'img/crop-paris.jpg', cover: 'img/cover-paris.jpg', name: 'Carpas París',
     desc: 'Carpas de diseño elegante para eventos, ferias y atención de público.',
     kicker: 'Diseño a medida',
     features: [
@@ -130,7 +130,7 @@ window.FG_PRODUCTS = [
     photos: ['img/pulpo-1.jpg', 'img/pulpo-2.jpg', 'img/pulpo-3.jpg', 'img/pulpo-4.jpg', 'img/pulpo-5.jpg', 'img/pulpo-6.jpg', 'img/pulpo-7.jpg', 'img/pulpo-8.jpg', 'img/pulpo-9.jpg', 'img/pulpo-10.jpeg'],
   },
   {
-    slug: 'bailarines', cover: 'img/cover-bailarines.png', name: 'Bailarines',
+    slug: 'bailarines', thumb: 'img/crop-bailarines.jpg', cover: 'img/cover-bailarines.png', name: 'Bailarines',
     desc: 'Bailarines de movimiento constante para publicidad y activaciones.',
     kicker: 'Inflables a medida',
     features: [
@@ -143,7 +143,7 @@ window.FG_PRODUCTS = [
     photos: ['img/bailarin-1.png', 'img/bailarin-2.png', 'img/bailarin-3.png', 'img/bailarin-4.png', 'img/bailarin-5.png', 'img/bailarin-6.png', 'img/bailarin-7.png', 'img/bailarin-8.png', 'img/bailarin-9.png', 'img/bailarin-10.png'],
   },
   {
-    slug: 'logos-inflables', cover: 'img/cover-logos.jpg', name: 'Logos inflables',
+    slug: 'logos-inflables', thumb: 'img/crop-logos.jpg', cover: 'img/cover-logos.jpg', name: 'Logos inflables',
     desc: 'Logos de empresas desarrollados en formato inflable y a medida.',
     kicker: 'Inflables a medida',
     features: [
@@ -182,7 +182,7 @@ window.FG_PRODUCTS = [
     photos: ['img/pantalla-1.png', 'img/pantalla-2.jpg', 'img/pantalla-3.jpg', 'img/pantalla-4.jpg', 'img/pantalla-5.jpg'],
   },
   {
-    slug: 'cubos-y-rectangulos', cover: 'img/cover-cubos.jpg', name: 'Cubos y Rectángulos',
+    slug: 'cubos-y-rectangulos', thumb: 'img/crop-cubos.jpg', cover: 'img/cover-cubos.jpg', name: 'Cubos y Rectángulos',
     desc: 'Cubos y rectángulos inflables, ideales para exhibir gráfica en sus cuatro caras.',
     kicker: 'Inflables a medida',
     features: [
